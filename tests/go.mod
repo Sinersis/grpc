@@ -8,7 +8,7 @@ require (
 	github.com/roadrunner-server/config/v5 v5.1.9
 	github.com/roadrunner-server/endure/v2 v2.6.2
 	github.com/roadrunner-server/goridge/v3 v3.8.3
-	github.com/roadrunner-server/grpc/v5 v5.2.3
+	github.com/Sinersis/grpc/v5 v5.2.3
 	github.com/roadrunner-server/logger/v5 v5.1.9
 	github.com/roadrunner-server/metrics/v5 v5.1.9
 	github.com/roadrunner-server/otel/v5 v5.3.1
@@ -22,7 +22,7 @@ require (
 	google.golang.org/protobuf v1.36.10
 )
 
-replace github.com/roadrunner-server/grpc/v5 => ../
+replace github.com/Sinersis/grpc/v5 => ../
 
 exclude go.temporal.io/api v1.26.1
 
